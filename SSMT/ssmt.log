@@ -1,0 +1,12 @@
+2025-02-21 12:08:51,603 INFO: 105, <module> input|input|
+2025-02-21 12:08:51,603 INFO: 106, <module> src|tgt:|eng|tel|
+2025-02-21 12:08:51,603 INFO: 78, iterate_directory Current Directory:|input|
+2025-02-21 12:08:51,603 INFO: 78, iterate_directory Current Directory:|input/dir|
+2025-02-21 12:08:51,603 INFO: 32, process_file Currently running:|input/dir/input.txt|
+2025-02-21 12:08:51,696 INFO: 62, process_file Currently running:|2|
+2025-02-21 12:08:51,971 INFO: 62, process_file Currently running:|3|
+2025-02-21 12:08:51,971 INFO: 71, process_file Processed and saved:|/home/nagaraju/Challenge-set/SSMT/input/dir/input_MS_Bing.txt|
+2025-02-21 12:08:51,972 INFO: 32, process_file Currently running:|input/input.txt|
+2025-02-21 12:08:52,031 INFO: 62, process_file Currently running:|2|
+2025-02-21 12:08:52,091 INFO: 62, process_file Currently running:|3|
+2025-02-21 12:08:52,091 INFO: 71, process_file Processed and saved:|/home/nagaraju/Challenge-set/SSMT/input/input_MS_Bing.txt|

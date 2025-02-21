@@ -1,0 +1,26 @@
+2025-02-21 12:03:18,610 INFO: 161, <module> input|input|
+2025-02-21 12:03:18,610 INFO: 162, <module> src|tgt:|eng|tel|
+2025-02-21 12:03:18,610 INFO: 137, iterate_directory Current Directory:|input|
+2025-02-21 12:03:18,610 INFO: 137, iterate_directory Current Directory:|input/eng-hin|
+2025-02-21 12:03:18,610 INFO: 106, process_file Currently running file:|test_MS_Bing.txt|
+2025-02-21 12:03:19,166 INFO: 127, process_file Done for all lines test_MS_Bing.txt
+2025-02-21 12:03:19,166 INFO: 128, process_file Writing to file /home/nagaraju/Challenge-set/Bing-MT/input/eng-hin/test_MS_Bing_MS_Bing.txt
+2025-02-21 12:03:19,167 INFO: 137, iterate_directory Current Directory:|input/eng-hin/eng-hin1|
+2025-02-21 12:03:19,168 INFO: 106, process_file Currently running file:|test1.txt|
+2025-02-21 12:03:19,168 INFO: 115, process_file Output file already exists for /home/nagaraju/Challenge-set/Bing-MT/input/eng-hin/eng-hin1/test1_MS_Bing.txt. Skipping...
+2025-02-21 12:03:19,168 INFO: 106, process_file Currently running file:|test1_MS_Bing.txt|
+2025-02-21 12:03:19,741 INFO: 127, process_file Done for all lines test1_MS_Bing.txt
+2025-02-21 12:03:19,741 INFO: 128, process_file Writing to file /home/nagaraju/Challenge-set/Bing-MT/input/eng-hin/eng-hin1/test1_MS_Bing_MS_Bing.txt
+2025-02-21 12:03:19,742 INFO: 106, process_file Currently running file:|test.txt|
+2025-02-21 12:03:19,743 INFO: 115, process_file Output file already exists for /home/nagaraju/Challenge-set/Bing-MT/input/eng-hin/test_MS_Bing.txt. Skipping...
+2025-02-21 12:03:19,743 INFO: 137, iterate_directory Current Directory:|input/eng-hin2|
+2025-02-21 12:03:19,744 INFO: 106, process_file Currently running file:|test1.txt|
+2025-02-21 12:03:19,744 INFO: 115, process_file Output file already exists for /home/nagaraju/Challenge-set/Bing-MT/input/eng-hin2/test1_MS_Bing.txt. Skipping...
+2025-02-21 12:03:19,744 INFO: 106, process_file Currently running file:|test1_MS_Bing.txt|
+2025-02-21 12:03:20,300 INFO: 127, process_file Done for all lines test1_MS_Bing.txt
+2025-02-21 12:03:20,301 INFO: 128, process_file Writing to file /home/nagaraju/Challenge-set/Bing-MT/input/eng-hin2/test1_MS_Bing_MS_Bing.txt
+2025-02-21 12:03:20,302 INFO: 106, process_file Currently running file:|test1.txt|
+2025-02-21 12:03:20,303 INFO: 115, process_file Output file already exists for /home/nagaraju/Challenge-set/Bing-MT/input/test1_MS_Bing.txt. Skipping...
+2025-02-21 12:03:20,303 INFO: 106, process_file Currently running file:|test1_MS_Bing.txt|
+2025-02-21 12:03:20,988 INFO: 127, process_file Done for all lines test1_MS_Bing.txt
+2025-02-21 12:03:20,988 INFO: 128, process_file Writing to file /home/nagaraju/Challenge-set/Bing-MT/input/test1_MS_Bing_MS_Bing.txt
