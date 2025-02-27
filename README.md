@@ -1,5 +1,5 @@
 # Kashmir workshop code
-
+# challenge-set
 ## Source code
 
 ### Normalizer
@@ -21,11 +21,17 @@ python3 sentence_nltk.py input.txt > output.txt
 #### Format input directory > eng-hin > file.txt
 
 ````
-python3 bing_translator.py --input=input_dir > --output=output_dir
+python3 bing_translator.py --input=input_dir --src=eng --tgt=hin
 ````
 
 ### SSMT
 
 ```
-python3 recursive_dir_run_ssmt_api.py input_dir 
-````# challenge-set
+python3 recursive_dir_run_ssmt_api.py --input=input_dir --src=eng --tgt=hin
+```
+
+### AI4 Bharath
+
+```
+python3 ai4_bharata_inference.py --input=input_dir --src=eng --tgt=hin
+````
