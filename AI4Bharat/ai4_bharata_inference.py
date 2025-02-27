@@ -63,10 +63,10 @@ def write_to_file(data_object, output_file_path):
 #     "मेरे मित्र ने मुझे उसके जन्मदिन की पार्टी में बुलाया है, और मैं उसे एक तोहफा दूंगा।",
 # ]
 
-def process_file(input_file_path, file_name, root_path):
+def process_file(input_file_path, file_name, root_path, source_language, target_language):
 	"""Process the file."""
 	print(input_file_path)
-	src_lang, tgt_lang = "hin_Deva", "eng_Latn"
+	src_lang, tgt_lang = lang_code_mapping[source_language], lang_code_mapping[target_language]
 	logger.info("Currently running file:|%s|" %(file_name))
 	input_sentences = read_lines_from_file(input_file_path)
 	translations = []
@@ -134,7 +134,7 @@ def iterate_directory(directory, source_language, target_language):
 		
 		# If it's a file, process it
 		if os.path.isfile(item_path):
-			process_file(item_path, item, root_path)
+			process_file(item_path, item, root_path, source_language, target_language)
 		
 		# If it's a directory, call this function recursively
 		elif os.path.isdir(item_path):
